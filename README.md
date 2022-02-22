@@ -6,9 +6,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-### step 2 : run ./run.sh
+### step 2 : copy ./.vimrc to ~/.vimrc
 ```shell
-./run.sh
+cp ./.vimrc ~/.vimrc
 ```
 
 ### step 3 : pluginstall
@@ -19,6 +19,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 then restart vim
 
+### step 4 : ./run.sh
+```
+./run.sh
+```
 
 ## reference
 https://iter01.com/635444.html
